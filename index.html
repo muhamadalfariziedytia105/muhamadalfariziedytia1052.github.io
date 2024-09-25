@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Acara Lari Marathon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="mode-terang">
+
+  <header>
+    <div class="logo">Acara Lari Marathon</div>
+    <nav id="navbar">
+      <ul id="nav-links">
+        <li><a href="#home">Menu Utama</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+    <button id="themeToggle">Mode Malam</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <h1>Selamat Datang di Website Kami</h1>
+      <p>Bergabunglah dengan kami untuk pengalaman berlari yang tak terlupakan!</p>
+      <button id="registerBtn">Daftar Sekarang</button>
+    </section>
+  </main>
+
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya muhamad alfarizi edytia, penyelenggara acara ini.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Acara Lari Marathon. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2>Daftar untuk Marathon</h2>
+      <form>
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
